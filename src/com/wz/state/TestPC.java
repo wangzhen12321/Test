@@ -19,7 +19,7 @@ class Productor extends Thread{
         this.container=synContainer;
     }
 
-    //生产123
+    //生产123456
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
