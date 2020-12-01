@@ -12,7 +12,7 @@ public class TestPC {
 }
 
 
-//生产者实例
+//生产者
 class Productor extends Thread{
     SynContainer container;
     public Productor(SynContainer synContainer){
