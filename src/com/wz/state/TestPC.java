@@ -12,14 +12,14 @@ public class TestPC {
 }
 
 
-//生产者
+//生产者实例
 class Productor extends Thread{
     SynContainer container;
     public Productor(SynContainer synContainer){
         this.container=synContainer;
     }
 
-    //生产sds1
+    //生产sds442525
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
